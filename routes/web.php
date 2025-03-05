@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/hello', function ()
-    {return 'Word';
+Route::get('/', function ()
+    {return 'Selamat Datang';
 });
