@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function ()
-    {return 'Selamat Datang';
+Route::get('/about', function ()
+    {return 'NIM : 2341760178 <br>
+            Nama : Saria Fauzani';
 });
