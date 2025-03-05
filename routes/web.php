@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/posts/{post}/comments/{comment}', function ($posId, $commentId)
+    {return 'Pos ke-' . $posId . " Komentar ke-" . $commentId;
 });
