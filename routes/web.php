@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/about', function ()
-    {return 'NIM : 2341760178 <br>
-            Nama : Saria Fauzani';
+Route::get('/user/{name}', function ($name)
+    {return 'Nama saya ' . $name;
 });
